@@ -1,1 +1,2 @@
 # MiniTalk
+The Minitalk project is designed to test your ability to communicate between two processes using signals. The project consists of two programs: the server and the client. The server program waits for incoming signals from the client program and then decodes them to reconstruct a message. The client program takes a string as input, converts it to binary code, and sends it bit by bit to the server using signals.
